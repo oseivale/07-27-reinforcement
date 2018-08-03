@@ -1,7 +1,7 @@
 
 class Task
 
-attr :description, :due_date
+attr_accessor :description, :due_date
 
   def initialize(description, due_date)
     @description = description
